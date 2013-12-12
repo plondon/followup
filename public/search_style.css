@@ -1,0 +1,55 @@
+body {
+	max-width: 1200px;
+	margin: 0px auto;
+	background-color: rgba(29,30,26,1);
+}
+
+section {
+	position: relative;
+	margin: -4px auto;
+	width: 100%;
+}
+
+.search {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 3em;
+	width: 99.8%;
+	height: 47px;
+	text-align: center;
+	outline: none;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+
+.submit {
+	display: none;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: inherit;
+	margin: 5px 25%;
+	width: 50%;
+	height: 40px;
+	border: none;
+	background-color: black;
+	color: white;
+	border-bottom: 1px solid black;
+}
+
+.submit:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+	.search {
+		font-size: 2em;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.search {
+		font-size: 1.5em;
+		height: inherit;
+	}
+}

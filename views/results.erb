@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Results</title>
+	<link rel="stylesheet" href="results_style.css">
+</head>
+
+<body>
+		<div id="search">
+			<%= (params[:followup]).downcase %>
+		</div>
+
+		<div id="results">
+			<ul>
+				<% data["response"]["docs"].each do |article| %>
+					<li><a href=<%="#{article["web_url"]}"%> target="_blank"><%= "#{article["headline"]["print_headline"]}" %></a><br>
+						<br>
+						<br>
+						<%= "#{article["source"]}" %></li>
+				<% end %>
+			</ul>
+		</div>
+
+		<div id="json">
+			<%= @json_data %>
+		</div>
+</body>
+
+</html>
