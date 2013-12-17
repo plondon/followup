@@ -22,13 +22,58 @@ li {
 	font-family: 'Merriweather Sans', sans-serif;
 	font-size: 1.2em;
 	text-align: center;
-	width: 340px;
+	width: 314px;
 	height: 200px;
-	margin: 10px auto;
-	border: 1px solid black;
+	margin: 20px auto;
+	border-radius: 15%;
 	padding: 20px;
-	overflow: scroll;
+	overflow: hidden;
+	-webkit-box-shadow: #888888 3px 3px 10px;
+	box-shadow: rgba(144, 141, 141, 0.439216) 2px 2px 9px;
+	opacity: 1;
+	border: 1px solid rgba(230,61,54,1);
 }
+}
+
+/*li:nth-child(1) {
+	background-color: red;
+}
+
+li:nth-child(2) {
+	background-color: red;
+}
+
+li:nth-child(3) {
+	background-color: red;
+}
+
+li:nth-child(4) {
+	background-color: red;
+}
+
+li:nth-child(5) {
+	background-color: red;
+}
+
+li:nth-child(6) {
+	background-color: red;
+}
+
+li:nth-child(7) {
+	background-color: red;
+}
+
+li:nth-child(8) {
+	background-color: red;
+}
+
+li:nth-child(9) {
+	background-color: red;
+}
+
+li:nth-child(10) {
+	background-color: red;
+}*/
 
 a {
 	color: black;
