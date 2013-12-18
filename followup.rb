@@ -21,8 +21,3 @@ post '/' do
 	@json_data
 	erb :results, :locals => {:data => @json_data}
 end
-
-
-
-
-
